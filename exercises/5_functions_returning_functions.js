@@ -8,6 +8,8 @@ function createAddFunction(numberToAdd) {
   */
   // PLACE YOUR CODE BELOW
 
+  return (num) => num + 5
+  
   // PLACE YOUR CODE ABOVE
 }
 

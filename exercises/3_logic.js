@@ -12,6 +12,23 @@ function paintMixer(color1, color2) {
   */
   // PLACE YOUR CODE BELOW
 
+  // create arr to check includes against
+  let colorArr = [color1, color2]
+
+  // known conditions
+  if (colorArr.includes("red") && colorArr.includes("blue")) {
+    return "purple"
+  } 
+  else if (colorArr.includes("red") && colorArr.includes("blue")) {
+    return "brown"
+  }
+  else if (colorArr.includes("blue") && colorArr.includes("yellow")) {
+    return "green"
+  }
+  else {
+    return "unknown"
+  }
+
   // PLACE YOUR CODE ABOVE
 }
 

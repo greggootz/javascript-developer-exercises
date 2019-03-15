@@ -22,6 +22,17 @@ before the next comment block.
 */
 // PLACE YOUR CODE BELOW
 
+// Arr to hold list
+var wordListArr = []
+
+// iterate over words
+words.forEach(word => {
+  wordListArr.push(word.substring(1, 3)) //push to array
+});
+
+//convert to string, with spaces
+wordList = wordListArr.join(', ') 
+
 // PLACE YOUR CODE ABOVE
 /*
 When run with "node 1_strings.js" you should see the following on
